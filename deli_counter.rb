@@ -6,7 +6,7 @@ def line(arr)
   else
     response = "The line is currently:"
     count = 1
-    arr.each do |currentPerson|
+      arr.each do |currentPerson|
       response += " #{count}. #{currentPerson}"
       count +=1
     end
